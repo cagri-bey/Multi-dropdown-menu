@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Dropdown-Menü</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <p style="color: white;">HABERİZM</p>
+            </div>
+            <nav class="menu">
+                <div class="head">
+                    <div class="logo"><img src="images/logo.png" alt="logo"></div>
+                    <button class="close-menu-btn" type="button"></button>
+                </div>
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li class="dropdown">
+                        <a href="#">Haberler</a>
+                        <i class="fi fi-rr-caret-down"></i>
+                        <ul class="sub-menu">
+                            <li><a href="#"><span>Yurtiçi Haberler</span></a></li>
+                            <li><a href="#"><span>Yurtdışı Haberler</span></a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Spor Haberleri</span></a>
+                                <i class="fi fi-rr-caret-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Süper Lig</span></a></li>
+                                    <li><a href="#"><span>Avrupa Ligleri</span></a></li>
+                                    <li><a href="#"><span>Transfer Haberleri</span></a></li>
+                                    <li><a href="#"><span>Basketbol Haberleri</span></a></li>
+                                    <li><a href="#"><span>Voleybol Haberleri</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><span>Ekonomi Haberleri</span></a></li>
+                            <li><a href="#"><span>Teknoloji Haberleri</span></a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Eğitim Haberleri</span></a>
+                                <i class="fi fi-rr-caret-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Milli Eğitim Bakanlığı</span></a></li>
+                                    <li class="dropdown">
+                                        <a href="#"><span>Yükseköğretim Kurulu</span></a>
+                                        <i class="fi fi-rr-caret-down"></i>
+                                        <ul class="sub-menu sub-menu-right">
+                                            <li><a href="#"><span>Üniversite Taban Puanları</span></a></li>
+                                            <li><a href="#"><span>Özel Üniversitelerin Burs Oranları</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span>Özel Okullar ve Kolejler</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Servisler</a></li>
+                    <li class="dropdown">
+                        <a href="#">HABER KANALLARI</a>
+                        <i class="fi fi-rr-caret-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>A HABER </span></a>
+                                <i class="fi fi-rr-caret-down"></i>
+                                <ul class="sub-menu sub-menu-left">
+                                    <li><a href="#"><span>CANLI YAYIN</span></a></li>
+                                    <li><a href="#"><span>HAKKINDA</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><span>TRT HABER</span></a></li>
+                            <li><a href="#"><span>TGRT HABER </span></a></li>
+                            <li><a href="#"><span>CNN TÜRK</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <button class="search-btn icon-btn" type="button">
+                    <i class="fi fi-br-search"></i>
+                </button>
+                <button class="cart-btn icon-btn" type="button">
+                    <i class="fi fi-rr-shopping-cart"></i>
+                </button>
+                <button class="open-menu-btn" type="button">
+                    <span class="line line-1"></span>
+                    <span class="line line-1"></span>
+                    <span class="line line-1"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
